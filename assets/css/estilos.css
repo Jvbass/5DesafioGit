@@ -2,33 +2,35 @@ body {
   font-family: 'Roboto Mono', monospace;
 }
 
-/* Hero Section */
+/* ITC- Section */
 
-#Hero-Section {
-  background-image: url("../img/IT-Crowd.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+#ITC-Section {
+  background-image: url("../img/IT-Crowd2.jpg");
+  background-repeat:no-repeat ;
+  background-size:cover;
   background-position: top;
+  width: 100%;
+  height: auto;
 }
 
-/* Mis trabajos */
+/* Personajes */
 
-#Mis-trabajos .image-top {
+#Personajes .image-top {
   height: 250px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-/* Contacto */
+/* Form Comentarios */
 
-#Contacto form label {
+#Comentarios form label {
   font-weight: 700;
   color: #373a3c;
 }
 
 @media (max-width: 768px) {
-  #Contacto form label {
+  #Comentarios form label {
     font-weight: 400;
   }
 
